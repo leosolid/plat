@@ -4,7 +4,7 @@
 [ext_resource path="res://src/Actors/Player.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 8.45907, 13.0907 )
+extents = Vector2( 10.5738, 14.3998 )
 
 [node name="Player" type="KinematicBody2D"]
 collision_mask = 8
@@ -15,7 +15,7 @@ position = Vector2( 0, -48 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -4.76837e-06, -40 )
+position = Vector2( -0.000112057, -44 )
 rotation = -3.14159
 scale = Vector2( 3.78292, 3.05561 )
 shape = SubResource( 1 )
