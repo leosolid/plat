@@ -19,3 +19,7 @@ position = Vector2( -0.000112057, -44 )
 rotation = -3.14159
 scale = Vector2( 3.78292, 3.05561 )
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 0, -272 )
+current = true
