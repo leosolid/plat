@@ -7,7 +7,7 @@
 extents = Vector2( 11.8956, 10.9634 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 55, 10 )
+extents = Vector2( 46, 10 )
 
 [node name="Enemy" type="KinematicBody2D"]
 collision_layer = 2
@@ -34,8 +34,7 @@ physics_process_parent = true
 [node name="StompDetector" type="Area2D" parent="."]
 modulate = Color( 0, 1, 0, 1 )
 position = Vector2( 0, -67 )
-collision_layer = 0
-monitorable = false
+collision_layer = 16
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StompDetector"]
 position = Vector2( 0, -10 )
